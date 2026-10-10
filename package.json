@@ -1,0 +1,26 @@
+{
+  "name": "ghost-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.mjs",
+    "cover": "node scripts/cover.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "marked": "^18.0.14",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  },
+  "description": "MCP server for the Ghost Admin API: search and read posts, create and edit drafts, upload images",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j551n-ncloud/ghost-mcp.git"
+  }
+}
